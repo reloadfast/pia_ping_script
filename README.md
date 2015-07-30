@@ -5,6 +5,7 @@ I really have no idea what I'm doing here, but this works. PLEASE! if you know h
 
 Credit to:
 Dennis Williamson for http://superuser.com/questions/246837/how-do-i-add-text-to-the-beginning-of-a-file-in-bash
+
 robertjinx for http://www.linuxquestions.org/questions/linux-server-73/script-to-ping-multiple-ip-addresses-one-by-one-705296/
 
 # HOW:
@@ -19,5 +20,7 @@ You'll end up with a file called pia_results.txt with the ping reulsts for each 
 !/bin/bash
 
 for i in $(cat pia_servers.txt); do
+
 ping -nc 5 -q ${i} | cat - pia_results.txt > temp && mv temp pia_results.txt
+
 done
