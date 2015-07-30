@@ -13,7 +13,7 @@ robertjinx for http://www.linuxquestions.org/questions/linux-server-73/script-to
 Create a file called pia_servers.txt that contains the list of PIA's servers, one per line. You'll find this file here updated as from 2015/07/31.
 Place pia_servers.txt in the same folder as pia_script. Run it:
 
-$sh pia_script..sh
+$sh pia_script.sh
 
 You'll end up with a file called pia_results.txt with the ping reulsts for each server.
 
