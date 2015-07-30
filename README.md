@@ -1,7 +1,7 @@
 # PIA Ping Script
 bash script to ping PIA's servers
 
-I really have no idea what I'm doing here, but this works. PLEASE! if you know how to improve the scrip tell me!.
+I really have no idea what I'm doing here, but this works. PLEASE! if you know how to improve the script tell me!.
 
 Credit to:
 Dennis Williamson for http://superuser.com/questions/246837/how-do-i-add-text-to-the-beginning-of-a-file-in-bash
